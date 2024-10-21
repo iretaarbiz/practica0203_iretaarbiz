@@ -6,3 +6,5 @@ clave = "contraseña"
 contra = input("Introduce la contraseña: \n")
 if contra.lower() == clave.lower():
     print("La contraseña introducida coincide")
+else: 
+    print("La contraseña introducida no coincide")
