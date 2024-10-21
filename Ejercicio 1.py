@@ -1,12 +1,8 @@
-'''Escribir un programa que pida al usuario un número entero y muestre por 
-pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
-*
-**
-***
-****
-*****   
-'''
+'''Escribir un programa que almacene la cadena de caracteres contraseña en una variable, 
+pregunte al usuario por la contraseña e imprima por pantalla si la contraseña introducida 
+por el usuario coincide con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas. '''
 
-num = int(input("Dame un número entero para formar el triángulo: \n"))
-for i in range(1, num+1):
-    print("*" * i)
+clave = "contraseña"
+contra = input("Introduce la contraseña: \n")
+if contra.lower() == clave.lower():
+    print("La contraseña introducida coincide")
