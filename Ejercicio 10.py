@@ -8,6 +8,6 @@ while correcto == False:
     contraseña = input("Introduce la contraseña \n")
     if contraseña == key:
         print("Contraseña correcta")
-        break
+        correcto = True
     else:
         print("Contraseña incorrecta")
