@@ -9,5 +9,5 @@ num = int(input("Introduce un número entero: \n"))
 for i in range(num):
     for j in range(1, 2 * (i + 1)):
         if j % 2 == 1: 
-            print(2 * (i + 1) - j, end="")
+            print(2 * (i + 1) - j, end=" ")
     print(end="\n")
